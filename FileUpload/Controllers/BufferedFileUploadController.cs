@@ -1,0 +1,47 @@
+﻿using FileUpload.Interfaces;
+using Microsoft.AspNetCore.Mvc;
+
+namespace FileUpload.Controllers
+{
+    public class BufferedFileUploadController : Controller
+    {
+        readonly IBufferedFileUploadService _bufferedFileUploadService;
+
+        public BufferedFileUploadController(IBufferedFileUploadService bufferedFileUploadService)
+        {
+            _bufferedFileUploadService = bufferedFileUploadService;
+        }
+
+        public IActionResult Index()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<ActionResult> Index(IFormFile file)
+        {
+            if (file == null)
+            {
+                ViewBag.Message = "File Upload Failed, selected no file!!";
+                return View();
+            }
+            try
+            {
+                if (await _bufferedFileUploadService.UploadFile(file))
+                {
+                    ViewBag.Message = "File Upload Successful";
+                }
+                else
+                {
+                    ViewBag.Message = "File Upload Failed";
+                }
+            }
+            catch (Exception ex)
+            {
+                //Log ex
+                ViewBag.Message = "File Upload Failed";
+            }
+            return View();
+        }
+    }
+}
