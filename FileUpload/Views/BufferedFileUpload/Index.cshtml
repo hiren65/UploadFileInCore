@@ -29,10 +29,17 @@
 }
 @if (  Model != null || cnt > 0)
 {
-    <ul>
+    <table class="table table-bordered table-responsive-md">
+        <tr><th>Order</th><th>Cust</th></tr>
         @foreach(var item in Model)
         {
-            <li>@item.AssetTag</li>
+            <tr>
+                <td>
+                    @item.OrderNumber
+                </td>
+                <td>@item.CustName</td>
+            </tr>
+          
         }
-    </ul>
+    </table>
 }

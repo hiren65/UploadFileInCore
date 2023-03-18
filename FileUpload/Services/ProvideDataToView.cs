@@ -26,10 +26,10 @@ namespace FileUpload.Services
             {
                 ReportModelGeneral rmg = new ReportModelGeneral();
                 rmg.Id = i;
-                rmg.AssetTag = serviceDetails.Rows[i][0].ToString();
+                rmg.OrderNumber = Convert.ToInt32( serviceDetails.Rows[i][1]);
+                rmg.CustName = Convert.ToString(serviceDetails.Rows[i][2]);
 
-
-             dataL.Add(rmg);
+                dataL.Add(rmg);
             }
 
             return Task.FromResult(dataL);
