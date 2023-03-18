@@ -1,0 +1,41 @@
+<div>
+	<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;">
+		<tr>
+			<th scope="col">Id</th><th scope="col">OrderNumber</th><th scope="col">customerName</th><th scope="col">PO_Number</th><th scope="col">Model</th><th scope="col">ServiceTag</th><th scope="col">PPID</th><th scope="col">SI</th><th scope="col">Date</th><th scope="col">ModelType</th><th scope="col">AssetTag</th><th scope="col">EthernetMAC</th><th scope="col">OperatorName</th><th scope="col">UUID</th><th scope="col">WirelessMAC</th><th scope="col">FibreMAC</th><th scope="col">AUX_MAC</th>
+		</tr><tr>
+			<td>1</td><td>876054221</td><td>Elders Rural Services Aus Ltd</td><td>3000532186</td><td>System</td><td>AMCU671</td><td>&nbsp;</td><td>SI701415  </td><td>6/09/2020 11:48:10 AM</td><td>OPTIPLEX 7070</td><td>&nbsp;</td><td>&nbsp;</td><td>1674</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>2</td><td>876057109</td><td>Elders Rural Services Aus Ltd</td><td>3000532186</td><td>System</td><td>V6V0X1B</td><td>&nbsp;</td><td>SI701415  </td><td>11/09/2020 3:07:58 PM</td><td>OPTIPLEX 7070</td><td>&nbsp;</td><td>&nbsp;</td><td>1674</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>3</td><td>876057109</td><td>Elders Rural Services Aus Ltd</td><td>3000532186</td><td>System</td><td>SDFVC1D</td><td>&nbsp;</td><td>SI701415  </td><td>11/09/2020 3:07:58 PM</td><td>OPTIPLEX 7070</td><td>&nbsp;</td><td>&nbsp;</td><td>1674</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>4</td><td>876037775</td><td>Department of Defence - CISSO</td><td>4501102174</td><td>System</td><td>ASCD123</td><td>&nbsp;</td><td>SI763328</td><td>11/09/2020 5:14:14 PM</td><td>PE RACK</td><td>CVGB234</td><td>&nbsp;</td><td>1674</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>5</td><td>876037775</td><td>Department of Defence - CISSO</td><td>4501102174</td><td>System</td><td>ASCD124</td><td>&nbsp;</td><td>SI763328</td><td>11/09/2020 5:14:14 PM</td><td>PE RACK</td><td>CVGB235</td><td>&nbsp;</td><td>1674</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>6</td><td>876037775</td><td>Department of Defence - CISSO</td><td>4501102174</td><td>System</td><td>ASCD125</td><td>&nbsp;</td><td>SI763328</td><td>11/09/2020 5:14:14 PM</td><td>PE RACK</td><td>CVGB236</td><td>&nbsp;</td><td>1674</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>7</td><td>876037776</td><td>Department of Defence - CISSO</td><td>4501102174</td><td>System</td><td>JKJK34P</td><td>&nbsp;</td><td>SI763328</td><td>11/09/2020 5:33:51 PM</td><td>PE RACK</td><td>ASD23</td><td>&nbsp;</td><td>1674</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>8</td><td>876037776</td><td>Department of Defence - CISSO</td><td>4501102174</td><td>System</td><td>JKJK34Q</td><td>&nbsp;</td><td>SI763328</td><td>11/09/2020 5:33:51 PM</td><td>PE RACK</td><td>ASD34</td><td>&nbsp;</td><td>1674</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>9</td><td>876037776</td><td>Department of Defence - CISSO</td><td>4501102174</td><td>System</td><td>JKJK34R</td><td>&nbsp;</td><td>SI763328</td><td>11/09/2020 5:33:51 PM</td><td>PE RACK</td><td>ASD56</td><td>&nbsp;</td><td>1674</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>10</td><td>876037778</td><td>Department of Defence - CISSO</td><td>4501102174</td><td>System</td><td>CVX9012</td><td>&nbsp;</td><td>SI763328</td><td>11/09/2020 8:17:18 PM</td><td>PE RACK</td><td>CVX9012</td><td>&nbsp;</td><td>1674</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>11</td><td>876037778</td><td>Department of Defence - CISSO</td><td>4501102174</td><td>System</td><td>CVX9013</td><td>&nbsp;</td><td>SI763328</td><td>11/09/2020 8:17:18 PM</td><td>PE RACK</td><td>CVX9013</td><td>&nbsp;</td><td>1674</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>12</td><td>876037778</td><td>Department of Defence - CISSO</td><td>4501102174</td><td>System</td><td>CVX9014</td><td>&nbsp;</td><td>SI763328</td><td>11/09/2020 8:17:18 PM</td><td>PE RACK</td><td>CVX9014</td><td>&nbsp;</td><td>1674</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>13</td><td>876037778</td><td>Department of Defence - CISSO</td><td>4501102174</td><td>System</td><td>CVX9015</td><td>&nbsp;</td><td>SI763328</td><td>11/09/2020 8:17:18 PM</td><td>PE RACK</td><td>CVX9015</td><td>&nbsp;</td><td>1674</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>14</td><td>876037778</td><td>Department of Defence - CISSO</td><td>4501102174</td><td>System</td><td>CVX9016</td><td>&nbsp;</td><td>SI763328</td><td>11/09/2020 8:17:18 PM</td><td>PE RACK</td><td>CVX9016</td><td>&nbsp;</td><td>1674</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>15</td><td>876163838</td><td>Laverty Pathology</td><td>2000058317</td><td>System</td><td>ASLK001</td><td>&nbsp;</td><td>SI649813  </td><td>11/09/2020 8:24:11 PM</td><td>OPTIPLEX 7070</td><td>SDFG45</td><td>&nbsp;</td><td>1674</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>16</td><td>876163838</td><td>Laverty Pathology</td><td>2000058317</td><td>System</td><td>ASLK002</td><td>&nbsp;</td><td>SI649813  </td><td>11/09/2020 8:24:11 PM</td><td>OPTIPLEX 7070</td><td>SDCF01</td><td>&nbsp;</td><td>1674</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>17</td><td>876163838</td><td>Laverty Pathology</td><td>2000058317</td><td>System</td><td>ASLK003</td><td>&nbsp;</td><td>SI649813  </td><td>11/09/2020 8:24:11 PM</td><td>OPTIPLEX 7070</td><td>DFSC01</td><td>&nbsp;</td><td>1674</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr>
+	</table>
+</div>

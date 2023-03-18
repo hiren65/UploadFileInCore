@@ -2,16 +2,19 @@
 using FileUpload.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using System.Data;
+using FileUpload.Models;
 
 namespace FileUpload.Controllers
 {
     public class BufferedFileUploadController : Controller
     {
         readonly IBufferedFileUploadService _bufferedFileUploadService;
+        private readonly IReadExcel _readExcel;
 
-        public BufferedFileUploadController(IBufferedFileUploadService bufferedFileUploadService)
+        public BufferedFileUploadController(IBufferedFileUploadService bufferedFileUploadService, IReadExcel readExcel)
         {
             _bufferedFileUploadService = bufferedFileUploadService;
+            _readExcel = readExcel;
         }
 
         public IActionResult Index()
@@ -25,7 +28,10 @@ namespace FileUpload.Controllers
             if (file == null)
             {
                 ViewBag.Message = "File Upload Failed, selected no file!!";
-                return View();
+                List<ReportModelGeneral> list = new List<ReportModelGeneral>();
+                ViewData["cnt"] = 0;
+
+                return View(list);
             }
             
 
@@ -45,29 +51,23 @@ namespace FileUpload.Controllers
 
                     if (file.FileName.EndsWith(".xls"))
                     {
-                        await using (stream = file.OpenReadStream())
+                        reader = ExcelReaderFactory.CreateBinaryReader(stream);
+                        DataSet ds = new DataSet();
+                        ds = reader.AsDataSet();
+                        reader.Close();
+                        var cc =await _readExcel.GetDataFromExcel(ds);
+
+                        ViewData["cnt"] = cc.Count();
+                        /*if (ds != null && ds.Tables.Count > 0)
                         {
-                            using ( reader = ExcelReaderFactory.CreateReader(stream))
-                            {
-                                // Choose one of either 1 or 2:
+                            // Read the the Table
+                            DataTable serviceDetails = ds.Tables[0];
+                            int i = 1;
+                            ViewBag.test = serviceDetails.Rows[i][2].ToString();
 
-                                // 1. Use the reader methods
-                                do
-                                {
-                                    while (reader.Read())
-                                    {
-                                        // reader.GetDouble(0);
-                                    }
-                                } while (reader.NextResult());
-
-                                // 2. Use the AsDataSet extension method
-                                var result = reader.AsDataSet();
-
-                                // The result of each spreadsheet is in result.Tables
-                            }
-                        }
+                        }*/
                         ViewBag.Message = "This file format is xls supported";
-                        return View();
+                        return View(cc);
                     }
                     if (file.FileName.EndsWith(".xlsx"))
                     {
@@ -78,6 +78,15 @@ namespace FileUpload.Controllers
                                      reader = ExcelReaderFactory.CreateOpenXmlReader(stream);
                                      DataSet result = reader.AsDataSet();
                                      reader.Close();
+
+                                     if (result != null && result.Tables.Count > 0)
+                                     {
+                                         // Read the the Table
+                                         DataTable serviceDetails = result.Tables[0];
+                                         int i = 1;
+                                        ViewBag.test = serviceDetails.Rows[i][2].ToString();
+
+                                     }
                             }
                         }
 

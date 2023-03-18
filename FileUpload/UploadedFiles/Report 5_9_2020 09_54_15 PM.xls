@@ -1,0 +1,25 @@
+<div>
+	<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;">
+		<tr>
+			<th scope="col">Id</th><th scope="col">OrderNumber</th><th scope="col">customerName</th><th scope="col">Model</th><th scope="col">ServiceTag</th><th scope="col">PPID</th><th scope="col">SI</th><th scope="col">Date</th><th scope="col">ModelType</th><th scope="col">AssetTag</th><th scope="col">EthernetMAC</th><th scope="col">OperatorName</th><th scope="col">UUID</th><th scope="col">WirelessMAC</th><th scope="col">FibreMAC</th>
+		</tr><tr>
+			<td>1</td><td>878787999</td><td>ABC CO</td><td>System</td><td>0000001</td><td>&nbsp;</td><td>SIABCDEF</td><td>17/08/2020 9:10:09 PM</td><td>DELL ULTRASHARP U4320Q</td><td>&nbsp;</td><td>&nbsp;</td><td>1674</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>2</td><td>878787999</td><td>ABC CO</td><td>System</td><td>0000002</td><td>&nbsp;</td><td>SIABCDEF</td><td>17/08/2020 9:10:09 PM</td><td>DELL ULTRASHARP U4320Q</td><td>&nbsp;</td><td>&nbsp;</td><td>1674</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>3</td><td>878787999</td><td>ABC CO</td><td>System</td><td>0000003</td><td>&nbsp;</td><td>SIABCDEF</td><td>17/08/2020 9:10:09 PM</td><td>DELL ULTRASHARP U4320Q</td><td>&nbsp;</td><td>&nbsp;</td><td>1674</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>4</td><td>878788888</td><td>DEPT OF Agriculture And Fisheries</td><td>Eport</td><td>&nbsp;</td><td>ASCVBGHNYUIPSWERFTGHYBJ</td><td>SIBMN428 SI384105</td><td>17/08/2020 10:57:48 PM</td><td>DELL ULTRASHARP 34 MONITOR</td><td>&nbsp;</td><td>&nbsp;</td><td>1674</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>5</td><td>878788888</td><td>DEPT OF Agriculture And Fisheries</td><td>Eport</td><td>&nbsp;</td><td>ASCVBGHNYUIPSWERFTGHYBC</td><td>SIBMN428 SI384105</td><td>17/08/2020 10:57:48 PM</td><td>DELL ULTRASHARP 34 MONITOR</td><td>&nbsp;</td><td>&nbsp;</td><td>1674</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>6</td><td>878788888</td><td>DEPT OF Agriculture And Fisheries</td><td>Eport</td><td>&nbsp;</td><td>ASCVBGHNYUIPSWERFTGHYBS</td><td>SIBMN428 SI384105</td><td>17/08/2020 10:57:48 PM</td><td>DELL ULTRASHARP 34 MONITOR</td><td>&nbsp;</td><td>&nbsp;</td><td>1674</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>7</td><td>876048369</td><td>Elders Rural Services Aus Ltd</td><td>System</td><td>1SCR1Q2</td><td>&nbsp;</td><td>SI701415  </td><td>25/08/2020 10:37:29 PM</td><td>OPTIPLEX 7070</td><td>&nbsp;</td><td>&nbsp;</td><td>1674</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>8</td><td>876037783</td><td>Department of Defence - CISSO</td><td>System</td><td>DFDF120</td><td>&nbsp;</td><td>SI763323  </td><td>3/09/2020 10:09:44 PM</td><td>PE RACK</td><td>HJ783</td><td>&nbsp;</td><td>1674</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>9</td><td>876037783</td><td>Department of Defence - CISSO</td><td>System</td><td>DFDF122</td><td>&nbsp;</td><td>SI763323  </td><td>3/09/2020 10:09:44 PM</td><td>PE RACK</td><td>HJ785</td><td>&nbsp;</td><td>1674</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr>
+	</table>
+</div>

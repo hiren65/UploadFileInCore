@@ -1,0 +1,15 @@
+<div>
+	<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;">
+		<tr>
+			<th scope="col">Id</th><th scope="col">OrderNumber</th><th scope="col">customerName</th><th scope="col">PO_Number</th><th scope="col">Model</th><th scope="col">ServiceTag</th><th scope="col">PPID</th><th scope="col">SI</th><th scope="col">Date</th><th scope="col">ModelType</th><th scope="col">AssetTag</th><th scope="col">EthernetMAC</th><th scope="col">OperatorName</th><th scope="col">UUID</th><th scope="col">WirelessMAC</th><th scope="col">FibreMAC</th><th scope="col">AUX_MAC</th><th scope="col">SIM_SerialNum</th><th scope="col">IMEI</th><th scope="col">RAM_Size</th><th scope="col">HDD_Size</th>
+		</tr><tr>
+			<td>1</td><td>878686868</td><td>QH</td><td>&nbsp;</td><td>System</td><td>CBDZGT2</td><td>&nbsp;</td><td>SIBMN428</td><td>1/01/2021 6:56:16 PM</td><td>Latitide 5500</td><td>&nbsp;</td><td>	</td><td>1674</td><td>&nbsp;</td><td>	</td><td>	FGHNYU877651</td><td>	A86DAA403332</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>2</td><td>878686868</td><td>QH</td><td>&nbsp;</td><td>System</td><td>GBDZGT2</td><td>&nbsp;</td><td>SIBMN428</td><td>1/01/2021 6:56:16 PM</td><td>Latitide 5500</td><td>&nbsp;</td><td>	</td><td>1674</td><td>&nbsp;</td><td>	</td><td>	FGHNYU877652</td><td>	A86DAA4032BF</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>3</td><td>878686868</td><td>QH</td><td>&nbsp;</td><td>System</td><td>FBDZGT2</td><td>&nbsp;</td><td>SIBMN428</td><td>1/01/2021 6:56:16 PM</td><td>Latitide 5500</td><td>&nbsp;</td><td>	</td><td>1674</td><td>&nbsp;</td><td>	</td><td>	FGHNYU877653</td><td>	A86DAA410474</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>4</td><td>878686868</td><td>QH</td><td>&nbsp;</td><td>System</td><td>DBDZGT2</td><td>&nbsp;</td><td>SIBMN428</td><td>1/01/2021 6:56:16 PM</td><td>Latitide 5500</td><td>&nbsp;</td><td>	</td><td>1674</td><td>&nbsp;</td><td>	</td><td>	FGHNYU877654</td><td>	A86DAA4018F7</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr>
+	</table>
+</div>

@@ -1,0 +1,13 @@
+<div>
+	<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;">
+		<tr>
+			<th scope="col">Id</th><th scope="col">CustomerName</th><th scope="col">ListOfSI</th><th scope="col">TotalQty</th><th scope="col">Date</th><th scope="col">OrdersList</th><th scope="col">Shift</th>
+		</tr><tr>
+			<td>145</td><td>Uni of NewCastle</td><td>SI202241  , SI202241  </td><td>11</td><td>24/01/2022 12:00:00 AM</td><td>877297579, 877297420</td><td>Shift2</td>
+		</tr><tr>
+			<td>146</td><td>Victoria Police</td><td>SIC0Z301  </td><td>7</td><td>24/01/2022 12:00:00 AM</td><td>877311010</td><td>Shift2</td>
+		</tr><tr>
+			<td>147</td><td>Boken Bay</td><td>SI216416  </td><td>2</td><td>24/01/2022 12:00:00 AM</td><td>877123433</td><td>Shift2</td>
+		</tr>
+	</table>
+</div>

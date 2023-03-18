@@ -1,8 +1,9 @@
-﻿<h1>Buffered File Upload</h1>
+﻿@model List<ReportModelGeneral>
+<h1>Buffered File Upload</h1>
 
 <hr />
 
-<form method="post" enctype="multipart/form-data">
+<form method="post"asp-action="Index" enctype="multipart/form-data">
     <input type="file" name="file" />
     <button type="submit">Upload File</button>
 </form>
@@ -11,5 +12,27 @@
 {
     <div class="alert" style="margin-top:20px">
         @ViewBag.Message
+        <p>@ViewBag.cnt    &amp;      @ViewBag.test </p>
     </div>
+}
+@{
+    int cnt = 0;
+    try
+    {
+        cnt = Convert.ToInt32(ViewData["cnt"]);
+    }
+    catch (Exception e)
+    {
+        
+    }
+    cnt = Convert.ToInt32(ViewData["cnt"]);
+}
+@if (  Model != null || cnt > 0)
+{
+    <ul>
+        @foreach(var item in Model)
+        {
+            <li>@item.AssetTag</li>
+        }
+    </ul>
 }
