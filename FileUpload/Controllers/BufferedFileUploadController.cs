@@ -27,6 +27,9 @@ namespace FileUpload.Controllers
                 ViewBag.Message = "File Upload Failed, selected no file!!";
                 return View();
             }
+            
+
+           
             try
             {
                 if (await _bufferedFileUploadService.UploadFile(file))
@@ -42,11 +45,31 @@ namespace FileUpload.Controllers
 
                     if (file.FileName.EndsWith(".xls"))
                     {
-                        reader = ExcelReaderFactory.CreateBinaryReader(stream);
-                        ViewBag.Message = "This file format is xlsx supported";
-                       // return View();
+                        await using (stream = file.OpenReadStream())
+                        {
+                            using ( reader = ExcelReaderFactory.CreateReader(stream))
+                            {
+                                // Choose one of either 1 or 2:
+
+                                // 1. Use the reader methods
+                                do
+                                {
+                                    while (reader.Read())
+                                    {
+                                        // reader.GetDouble(0);
+                                    }
+                                } while (reader.NextResult());
+
+                                // 2. Use the AsDataSet extension method
+                                var result = reader.AsDataSet();
+
+                                // The result of each spreadsheet is in result.Tables
+                            }
+                        }
+                        ViewBag.Message = "This file format is xls supported";
+                        return View();
                     }
-                    else if (file.FileName.EndsWith(".xlsx"))
+                    if (file.FileName.EndsWith(".xlsx"))
                     {
                         await using (stream = file.OpenReadStream())
                         {
