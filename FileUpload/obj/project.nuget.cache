@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "nHJFxu7BvTJzrPuu+c1QiWPmM5qLc1RY+VL0mAeJPngjIqavziY5dZHFSrqm5Hodh96iwJG6hbVylZ590il6XA==",
+  "dgSpecHash": "apAx8d5bzQl6xxoIy7Xo5UBIP33VViugMJVdJKHZqCr8U0jCl00HVIYPey5QjI+y2yz1csszvyKeWUupvYFqmQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\utkar\\Desktop\\core3\\FileUpload\\FileUpload\\FileUpload.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\utkar\\.nuget\\packages\\exceldatareader\\3.7.0-develop00310\\exceldatareader.3.7.0-develop00310.nupkg.sha512",
+    "C:\\Users\\utkar\\.nuget\\packages\\exceldatareader.dataset\\3.7.0-develop00310\\exceldatareader.dataset.3.7.0-develop00310.nupkg.sha512",
+    "C:\\Users\\utkar\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\utkar\\.nuget\\packages\\system.text.encoding.codepages\\8.0.0-preview.2.23128.3\\system.text.encoding.codepages.8.0.0-preview.2.23128.3.nupkg.sha512"
+  ],
   "logs": []
 }

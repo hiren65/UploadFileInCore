@@ -1,0 +1,9 @@
+<div>
+	<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;">
+		<tr>
+			<th scope="col">Id</th><th scope="col">OrderNumber</th><th scope="col">ServiceTag</th><th scope="col">AssetTag</th><th scope="col">UUID</th><th scope="col">TypeDevice</th><th scope="col">PPID</th><th scope="col">OtherType</th><th scope="col">Ethernet_MAC</th><th scope="col">Wireless_MAC</th><th scope="col">Fibre_MAC</th><th scope="col">PassThrough_MAC</th><th scope="col">AUX_MAC</th><th scope="col">IMEI</th><th scope="col">SIM_Serial_Number</th><th scope="col">HDD_Serial_Number</th><th scope="col">SDD_Serial_Number</th><th scope="col">RAM_Size</th><th scope="col">HDD_Size</th><th scope="col">DP_Number</th><th scope="col">Operator_Code</th><th scope="col">SI</th>
+		</tr><tr>
+			<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr>
+	</table>
+</div>
